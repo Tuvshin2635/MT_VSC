@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+body {
+    margin-top: auto;
+    background: url(wallpaper.jpeg) center/cover;
+    
+}
+.logo {
+    width: 220px;
+    height: 140px;
+    float: left;
+}
+header {
+    position: absolute;
+    /* font-family: 'Pacifico'; */
+    margin-top: 30px;
+}
+header ul li {
+    display: inline-block;
+    margin-left: 120px;
+    margin-right: 5px;
+}
+header ul li a {
+    color: yellow;
+    list-style: none;
+    line-height: 5px;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 5px black;
+    text-decoration: none;
+    font-size: 28px;
+
+}
+
+header ul {
+    position: relative;
+    margin-top: 5px;
+    border: 2px ;
+    box-shadow: 3px 3px 5px black;
+    background-color: indigo;
+    padding: 50px;
+}
+
+img {
+    width: 30vh;
+    height: auto;
+}
+section h3,h4,ul {
+    display: inline-block;
+}
+aside {
+    position: absolute;
+    margin-top: 250px;
+}
+aside h4 {
+    padding: 20px;
+    font-size: 24px;
+    position: absolute;
+    box-shadow: 5px 5px 6px  indigo;
+    width: 40%;
+    margin-top: 50px;
+    text-align: justify;
+    background-image: linear-gradient(indigo, yellow);
+}
+aside h3 {
+    position: absolute;
+
+    color: antiquewhite;
+
+    margin-top: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+aside ul {
+    font-size: 32px;
+    position: absolute;
+    margin-top: 400px;
+}
+
+aside img {
+    position: relative; 
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 48%;
+    border-radius: 10%;
+    border: 10px solid indigo;
+    padding: 8px;
+    width: 50%;
+}
+
+figcaption {
+    display: inline-block;
+    background-color: black;
+    color: white;        
+    font-style: italic;
+    padding: 0px;
+    text-align: center;
+    margin-left: 48%;
+}
+
+.photo2 {
+    margin-left: 0px;
+}
+.about {
+    position: absolute;
+    width: 80%;
+    margin-top: -50%;
+    margin-left: 60%;
+    
+    
+}

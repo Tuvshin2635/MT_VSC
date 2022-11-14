@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+    margin-left: ;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav div {
+    display: flex;
+    gap: 30px;
+    margin-top: 44px;
+    margin-left: 584px;
+}
+.nav_tab1 {
+    width: 140px;
+    height: 20.83px;
+    margin-left: 30px;
+    margin-top: 44px;
+}
+.nav_tab {
+    width: 48px;
+    height: 48px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+header nav div a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+header {
+    background-image: url(./image\ 1.png);
+    height: 1080px;
+    margin-top: 0px;
+    width: 1728px;
+
+}
+header h1 {
+    position: absolute;
+    margin-left: -1000px;
+    margin-top: 463px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+section div {
+    display: flex;
+    margin: 0 0;
+}
+
+section h2 {
+    position: absolute;
+    width: 298px;
+    height: 72px;
+    left: 42px;
+    top: 1114px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    align-items: center;
+    color: #FFFFFF;
+}
+section .h22 {
+    position: absolute;
+    width: 309px;
+    height: 72px;
+    left: 1389px;
+    top: 1114px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+aside {
+    width: 1828px;
+    height: 980px;
+}
+aside img {
+    width: 435px;
+    height: 480px;
+}
+
+.container {
+    display: flex;
+     flex-wrap: wrap;
+    
+}
+aside .h21 {
+    position: absolute;
+    width: 162px;
+    height: 35px;
+    left: 132px;
+    top: 2074px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.h22 {
+    position: absolute;
+    width: 162px;
+    height: 35px;
+    left: 567px;
+    top: 2074px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.h23 {
+    position: absolute;
+    width: 190px;
+    height: 35px;
+    left: 982px;
+    top: 2074px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.h24 {
+    position: absolute;
+    width: 188px;
+    height: 35px;
+    left: 1415px;
+    top: 2074px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.h25 {
+    position: absolute;
+    width: 337px;
+    height: 35px;
+    left: 60px;
+    top: 2554px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.h26 {
+    position: absolute;
+    width: 202px;
+    height: 35px;
+    left: 547px;
+    top: 2554px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.h27 {
+    position: absolute;
+    width: 179px;
+    height: 35px;
+    left: 988px;
+    top: 2554px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.h28{
+    position: absolute;
+    width: 141px;
+    height: 35px;
+    left: 1439px;
+    top: 2554px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.image8_back {
+    background-color: blue;
+}
