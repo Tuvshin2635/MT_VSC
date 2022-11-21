@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="png" href="Mlet.png">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  
+    <title>Musicplayer</title>
+</head>
+<body>
+    <div class="player">
+        <div class="wrapper">
+            <div class="details">
+                <div class="now-playing"> PLAYING x OF y</div>
+                <div class="track-art"></div>
+                <div class="track-name">Track-name</div>
+                <div class="track-artist">Track-artist</div>
+            </div>
+
+            <div class="slider_container">
+                <div class="current-time">00:00</div>
+                <input type="range" min="1" max="100" value="0" class="seek_slider" achange="seekTo()">
+                <div class="total-duration">00:00</div>
+            </div>
+
+            <div class="slider_container">
+                <i class="fa fa-camera-retro fa-5x"></i>
+
+                <i class="fa fa-volume-down" aria-hidden="true"></i>
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+
+                <i class="fa fa-volume-down"></i>
+                <input type="range" min="1" max="100">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
